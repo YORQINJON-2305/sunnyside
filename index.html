@@ -1,39 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template project</title>
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunnyside</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+  </head>
+  <body>
+    <!-- ======== HEADER START ======== -->
+    <div class="header-wrapper">
+      <div class="container">
+        <header class="site-header header">
+          <div class="header__inner">
+            <a class="logo" href="./index.html">
+              <img
+                class="logo__img"
+                src="./images/logo.svg"
+                alt="Sunnyside's logo"
+              />
+            </a>
+            <button class="header__burger" type="button"></button>
 
-  <!-- ======== HEADER START ======== -->
-  <header class="site-header">
+            <nav class="sitenav">
+               <ul class="sitenav__list">
+                  <li class="sitenav__item">
+                    <a class="sitenav__link" href="#">About</a>
+                  </li>
+                  <li class="sitenav__item">
+                    <a class="sitenav__link" href="#"> Services</a>
+                  </li>
+                  <li class="sitenav__item">
+                    <a class="sitenav__link" href="#">Projects</a>
+                  </li>
+                  <li class="sitenav__item">
+                    <a class="sitenav__link sitenav__link--contact" href="#">CONTACT</a>
+                  </li>
+               </ul>
+            </nav>
+          </div>
+        </header>
+        <section class="intro">
+            <div class="intro__title-wrap">
+              <h1 class="intro__title">We are creatives</h1>
+            </div>
+        </section>
+      </div>
+    </div>
+    <!-- ======== HEADER FINISH ======== -->
 
-  </header>
-   <!-- ======== HEADER FINISH ======== -->
+    <!-- ======== SITE MAIN START ======== -->
+    <main class="site-main">
+      <!-- ======== HERO START ======== -->
+      <section class="features">
+        <div class="features__wrap">
+          <div class="features__item">
+            <div class="features__text-wrap">
+              <h2 class="features__item-title">Transform your brand</h2>
+              <p class="features__item-descr">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+              <a class="features__item-link" href="#">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="features__item"></div>
+          <div class="features__item"></div>
+          <div class="features__item">
+            <div class="features__text-wrap">
+              <h2 class="features__item-title">Stand out to the right audience</h2>
+              <p class="features__item-descr">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+              <a class="features__item-link" href="#">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__end-text-wrap">
+              <h2 class="features__subtitle">Graphic Design</h2>
+              <p class="features__text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+          </div>
+          <div class="features__item">
+            <div class="features__end-text-wrap">
+              <h2 class="features__subtitle">Photography</h2>
+              <p class="features__text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== HERO FINISH ======== -->
+    </main>
+    <!-- ======== SITE MAIN FINISH ======== -->
 
+    <!-- ======== SITE FOOTER FINISH ======== -->
+    <footer class="site-footer"></footer>
+    <!-- ======== SITE FOOTER FINISH ======== -->
 
-  <!-- ======== SITE MAIN START ======== -->
-  <main class="site-main">
-
-    <!-- ======== HERO START ======== -->
-    <section class="hero">
-
-    </section>
-    <!-- ======== HERO FINISH ======== -->
-
-  </main>
-  <!-- ======== SITE MAIN FINISH ======== -->
-
-  <!-- ======== SITE FOOTER FINISH ======== -->
-  <footer class="site-footer">
-
-  </footer>
-  <!-- ======== SITE FOOTER FINISH ======== -->
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
