@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sunnyside</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+    <!-- <link rel="stylesheet" href="./css/normalize.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <!-- ======== HEADER START ======== -->
@@ -46,6 +46,7 @@
             <div class="intro__title-wrap">
               <h1 class="intro__title">We are creatives</h1>
             </div>
+            <a class="intro__arrow" href="#footer"></a>
         </section>
       </div>
     </div>
@@ -53,7 +54,7 @@
 
     <!-- ======== SITE MAIN START ======== -->
     <main class="site-main">
-      <!-- ======== HERO START ======== -->
+      <!-- ======== FEATURES START ======== -->
       <section class="features">
         <div class="features__wrap">
           <div class="features__item">
@@ -86,12 +87,142 @@
           </div>
         </div>
       </section>
-      <!-- ======== HERO FINISH ======== -->
+      <!-- ======== FEATURES FINISH ======== -->
+
+      <!-- ======== CLIENT START ======= -->
+      <section class="client">
+         <div class="container">
+             <div class="client__title-wrap">
+               <h2 class="client__title">CLIENT TESTIMONIALS</h2>
+             </div>
+             <ul class="client__list">
+              <li class="client__item">
+                <div class="client__text-warp">
+                  <p class="client__descr">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+                  <h3 class="client__name">Emily R.</h3>
+                  <p class="client__job">Marketing Director</p>
+                </div>
+              </li>
+              <li class="client__item">
+                <div class="client__text-warp">
+                  <p class="client__descr">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+                  <h3 class="client__name">Thomas S.</h3>
+                  <p class="client__job">Chief Operating Officer</p>
+                </div>
+              </li>
+              <li class="client__item">
+                <div class="client__text-warp">
+                  <p class="client__descr">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+                  <h3 class="client__name">Jennie F.</h3>
+                  <p class="client__job">Business Owner</p>
+                </div>
+              </li>
+             </ul>
+         </div>
+      </section>
+      <!-- ======== CLIENT FINISH ======= -->
+
+      <!-- ======== IMAGES START ========= -->
+      <section class="images">
+             <ul class="images__list">
+                <li class="images__item">
+                    <picture>
+                      <source media="(min-width: 768px)" 
+                              srcset="./images/milk-desktop.jpg 1x, ./images/milk-desktop@2x.jpg 2x"
+                      >
+                      <img class="images__img" src="./images/milk-mobile.jpg" 
+                           width="188"
+                           height="188"
+                           srcset="./images/milk-mobile.jpg 1x, ./images/milk-mobile@2x.jpg 2x" 
+                           alt="Three bottle of yogurt" >
+                    </picture>
+                </li>
+                <li class="images__item">
+                    <picture>
+                      <source media="(min-width: 768px)" 
+                              srcset="./images/lemon-desktop.jpg 1x, ./images/lemon-desktop@2x.jpg 2x"
+                       >
+                      <img class="images__img" src="./images/lemon-mobile.jpg" 
+                           width="188"
+                           height="188"
+                           srcset="./images/lemon-mobile.jpg 1x, ./images/lemon-mobile@2x.jpg 2x" 
+                           alt="Half of lemon" >
+                    </picture>
+                </li>
+                <li class="images__item">
+                    <picture>
+                      <source media="(min-width: 768px)" 
+                              srcset="./images/ice-cream-desktop.jpg 1x, ./images/ice-cream-desktop@2x.jpg 2x"
+                       >
+                      <img class="images__img" src="./images/ice-cream-mobile.jpg" 
+                           width="188"
+                           height="188"
+                           srcset="./images/ice-cream-mobile.jpg 1x, ./images/ice-cream-mobile@2x.jpg 2x" 
+                           alt="A piece of ice cream" >
+                    </picture>
+                </li>
+                <li class="images__item">
+                    <picture>
+                      <source media="(min-width: 768px)" 
+                              srcset="./images/sugar-desktop.jpg 1x, ./images/sugar-desktop@2x.jpg 2x"
+                       >
+                      <img class="images__img" src="./images/sugar-mobile.jpg" 
+                           width="188"
+                           height="188"
+                           srcset="./images/sugar-mobile.jpg 1x, ./images/sugar-mobile@2x.jpg 2x" 
+                           alt="Refined sugars" >
+                    </picture>
+                </li>
+             </ul>
+      </section>
+
     </main>
     <!-- ======== SITE MAIN FINISH ======== -->
 
     <!-- ======== SITE FOOTER FINISH ======== -->
-    <footer class="site-footer"></footer>
+    <footer class="site-footer" id="footer">
+      <div class="container">
+        <div class="site-footer__inner">
+          <a href="logo">
+            <img class="logo__img logo__img--footer" src="./images/logo-green.svg" alt="Sunnyside’s logo green">
+          </a>
+              <ul class="site-footer__list">
+                    <li class="site-footer__item">
+                        <a class="site-footer__link" href="#">About</a>
+                    </li>
+                    <li class="site-footer__item">
+                        <a class="site-footer__link" href="#">Services</a>
+                    </li>
+                    <li class="site-footer__item">
+                        <a class="site-footer__link" href="#">Projects</a>
+                    </li>
+                </ul>
+
+            <ul class="site-footer__icon-list">
+                  <li class="site-footer__icon-item">
+                      <a class="site-footer__icon-link" href="#" target="blank">
+                        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.9 0H1.1C.5 0 0 .5 0 1.1v17.8c0 .6.5 1.1 1.1 1.1h9.58v-7.74h-2.6V9.24h2.6V7c0-2.58 1.58-3.99 3.89-3.99 1.1 0 2.05.08 2.32.12v2.7h-1.6c-1.25 0-1.49.6-1.49 1.47v1.93h2.99l-.39 3.02h-2.6V20h5.1c.6 0 1.1-.5 1.1-1.1V1.1c0-.6-.5-1.1-1.1-1.1Z" fill="currentColor"/></svg>
+                      </a>
+                  </li>
+                  <li class="site-footer__icon-item">
+                      <a class="site-footer__icon-link" href="#" target="blank">
+                        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 0C7.28 0 6.94.01 5.88.06 2.25.23.23 2.24.06 5.88.01 6.94 0 7.28 0 10s.01 3.06.06 4.12c.17 3.63 2.18 5.65 5.82 5.82 1.06.05 1.4.06 4.12.06s3.06-.01 4.12-.06c3.63-.17 5.65-2.18 5.82-5.82.05-1.06.06-1.4.06-4.12s-.01-3.06-.06-4.12C19.78 2.25 17.76.23 14.12.06 13.06.01 12.72 0 10 0Zm0 1.8c2.67 0 2.99.01 4.04.06 2.71.12 3.98 1.41 4.1 4.1.05 1.05.06 1.37.06 4.04s-.01 2.99-.06 4.04c-.12 2.69-1.39 3.98-4.1 4.1a69.1 69.1 0 0 1-4.04.06c-2.67 0-2.99-.01-4.04-.06-2.72-.12-3.98-1.41-4.1-4.1A69.15 69.15 0 0 1 1.8 10a70 70 0 0 1 .06-4.04c.12-2.69 1.39-3.98 4.1-4.1C7 1.81 7.33 1.8 10 1.8ZM4.87 10a5.14 5.14 0 1 1 10.27 0 5.14 5.14 0 0 1-10.28 0ZM10 13.33a3.33 3.33 0 1 1 0-6.66 3.33 3.33 0 0 1 0 6.66Zm4.14-8.67a1.2 1.2 0 1 1 2.4 0 1.2 1.2 0 0 1-2.4 0Z" fill="currentColor"/></svg>
+                      </a>
+                  </li>
+                  <li class="site-footer__icon-item">
+                      <a class="site-footer__icon-link" href="#" target="blank">
+                        <svg width="20" height="17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 2.17a8.2 8.2 0 0 1-2.36.65c.85-.5 1.5-1.31 1.8-2.27-.79.47-1.66.81-2.6 1a4.1 4.1 0 0 0-7 3.74C6.45 5.1 3.43 3.49 1.4.99a4.1 4.1 0 0 0 1.27 5.49C2 6.46 1.36 6.28.8 5.96a4.1 4.1 0 0 0 3.3 4.08c-.58.16-1.21.2-1.86.07a4.1 4.1 0 0 0 3.83 2.85A8.25 8.25 0 0 1 0 14.66a11.62 11.62 0 0 0 6.29 1.84c7.62 0 11.92-6.43 11.66-12.2.8-.58 1.5-1.3 2.05-2.13Z" fill="currentColor"/></svg>
+                      </a>
+                  </li>
+                  <li class="site-footer__icon-item">
+                      <a class="site-footer__icon-link" href="#" target="blank">
+                        <svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 0a10 10 0 0 0-3.64 19.31c-.1-.79-.17-2 .03-2.87l1.17-4.97s-.3-.6-.3-1.48c0-1.4.81-2.43 1.81-2.43.86 0 1.27.64 1.27 1.4 0 .87-.55 2.15-.83 3.34-.24 1 .5 1.8 1.48 1.8 1.78 0 3.14-1.87 3.14-4.57 0-2.4-1.72-4.07-4.17-4.07A4.33 4.33 0 0 0 5.44 9.8c0 .86.33 1.78.75 2.28.08.1.09.19.07.29l-.28 1.13c-.05.18-.15.22-.34.13-1.25-.58-2.03-2.4-2.03-3.87 0-3.15 2.3-6.05 6.61-6.05 3.47 0 6.17 2.47 6.17 5.77 0 3.45-2.18 6.22-5.2 6.22-1 0-1.96-.52-2.29-1.14l-.62 2.37c-.22.87-.83 1.96-1.24 2.62A10.03 10.03 0 0 0 20 10 10 10 0 0 0 10 0Z" fill="currentColor"/></svg>
+                      </a>
+                  </li>
+              </ul>
+        </div>
+      </div>
+    </footer>
     <!-- ======== SITE FOOTER FINISH ======== -->
 
     <script src="./js/main.js"></script>
